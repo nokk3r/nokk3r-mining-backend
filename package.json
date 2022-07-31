@@ -1,0 +1,38 @@
+{
+  "name": "nokk3r_mining_backend",
+  "version": "1.0.0",
+  "description": "backend application on Express.js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokk3r/nokk3r_mining_backend.git"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "nokk3r_mining_backend"
+  ],
+  "author": "nokk3r<nokk3r@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nokk3r/nokk3r_mining_backend/issues"
+  },
+  "homepage": "https://github.com/nokk3r/nokk3r_mining_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
